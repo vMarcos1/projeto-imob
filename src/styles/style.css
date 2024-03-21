@@ -89,7 +89,7 @@ body {
 }
 
 .home #face:hover {
-    background-color: rgb(0, 0, 173);
+    background-color: rgb(36, 36, 196);
     cursor: pointer;
     transition: .3s;
 }
