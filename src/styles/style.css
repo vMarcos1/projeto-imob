@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(67, 67, 133);
+    background-color: rgb(105, 184, 248);
     font-family: "Roboto", sans-serif;
 }
 
@@ -18,24 +18,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
-    height: 400px;
-    width: 700px;
+    background-color: white;
+    height: 700px;
+    width: 1000px;
     border-radius: 10px;
     padding: 20px;
-    gap: 10px;
+    gap: 30px;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.815);
    
 }
 
 .home .suporte {
-    width: 50%;
-    height: 90%;
+    width: 30%;
+    height: 95%;
     display: flex;
+    gap: 16px;
     flex-direction: column;
    
     align-items: center;
-    background-color: rgba(55, 55, 145, 0.644);
+    background-color: rgb(65, 123, 248);
     border-radius: 10px;
     color: white;
     padding: 10px;
@@ -44,14 +45,21 @@ body {
 }
 
 .home .titulo {
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
+
+
+.home p {
+    text-align: center;
+}
+
 .home .btn-contato {
     display: flex;
     align-items: center;
     
     gap: 5px;
-    background-color: rgb(67, 67, 133);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 70%;
     margin-bottom: 5px;
     padding: 5px 10px;
@@ -61,7 +69,7 @@ body {
 }
 
 .home #insta:hover {
-    background-color: #c401c4;
+    background-color: #970097;
     
     cursor: pointer;
     transition: .3s;
@@ -88,12 +96,13 @@ body {
 
 .home .btn-suporte {
     width: 70%;
-    padding: 10px 25px ;
+    padding: 8px 20px ;
     margin-top: 30px;
     border-radius: 5px;
     background-color: rgb(67, 67, 133);
     color: white;
     font-weight: bold;
+    font-size: 17px;
     cursor: pointer;
 }
 
@@ -108,7 +117,7 @@ body {
 
 
 .home .login {
-    width: 50%;
+    width: 70%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -122,25 +131,30 @@ body {
 }
 
 .login .titulo {
-    background-color: rgb(67, 67, 133);
-    color: #fff;
-    padding: 10px;
+    color: black;
+    font-size: 3em;
     border-radius: 10px;
     text-align: center;
 
 }
 
+.login p {
+    margin-bottom: 15px;
+}
+
 .login .form  {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border: 1px solid black;
     border-radius: 3px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .login .btn-entrar {
-    margin: 5px 0 10px 0;
+    margin: 5px 0 30px 0;
     padding: 10px 20px;
-    background-color: rgb(67, 67, 133);
+    background-color: rgb(65, 123, 248);
+    border: 1px solid black;
+    border-radius: 5px;
     color: #fff;
     font-weight: bold;
     font-size: 15px;
@@ -155,15 +169,15 @@ body {
 
 .login .btn-novo-cadastro {
     margin: 0 auto;
-    width: 50%;
-    background-color: rgb(67, 67, 133);
-    color: #fff;
-    font-size: 12px;
+    border: 0;
+    background-color: white;
+    color: rgb(65, 123, 248);
+    font-size: 14px;
     border-radius: 5px;
 }
 
 .login .btn-novo-cadastro:hover {
-    background-color: #fff;
+    text-decoration: underline;
     color: black;
 }
 
